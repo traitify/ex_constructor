@@ -4,7 +4,7 @@ defmodule Constructor.MixProject do
   def project do
     [
       app: :constructor,
-      version: "1.0.0",
+      version: "1.1.0",
       description: description(),
       docs: [main: Constructor],
       elixir: "~> 1.7",
@@ -46,7 +46,7 @@ defmodule Constructor.MixProject do
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:dialyxir, "~> 1.0.0-rc.6", only: [:dev, :test], runtime: false},
       {:morphix, "~> 0.6"},
-      {:typed_struct, "~> 0.1.4", hex: :typed_struct_uberbrodt}
+      {:typed_struct, "~> 0.1"}
     ]
   end
 end
